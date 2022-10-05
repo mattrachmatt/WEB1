@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="assets/gayaku.css" />
+    <link href="assets/img/icon.ico" rel="icon">
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-around shadow-sm">
+        <!-- navigasi -->
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/logoipsum-212.svg" alt="logoipsum" />
+          </a>
+
+          <div class="collapse navbar-collapse mb-3 mb-lg-0" id="menuToggler">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3 gap-2">
+              <li class="nav-item">
+                <a class="nav-link active" href="dashboard.html"> <i class="bi bi-house-fill"></i> Dashboard</a>
+              </li>
+            </ul>
+
+            <div class="dropdown">
+              <button class="btn dropdown-toggle bi bi-journals" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                Logbook
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="logbook.html">Logbook list</a></li>
+                <li><a class="dropdown-item" href="logbook-add.html">Edit Logbook</a></li>
+              </ul>
+            </div>
+
+            <div class="dropdown">
+              <button class="btn dropdown-toggle bi bi-person-circle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+                  User
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item" href="user.html">See All User</a></li>
+                <li><a class="dropdown-item" href="user-add.html">Add New User</a></li>
+              </ul>
+            </div>
+                
+            <div class="dropdown">
+              <button class="btn dropdown-toggle-split" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" data-bs-auto-close="outside"  aria-expanded="false">
+                Account
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Account Setting</a></li>
+                <li><a class="dropdown-item" href="login.html">Logout</a></li>
+              </ul>
+            </div>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuToggler"
+            aria-controls="menuToggler"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <small>
+              <i class="bi bi-list"></i>
+            </small>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Membuat hero section dianatara nav dan konten -->
+    <div id="hero">
+      <div class="container text-start">
+        <h3 class="display-99 text-shadow">SIMPBL</h3>
+        <div class="text-shadow">Selamat Datang Di Halaman Admin </div>
+        <!-- <a class="btn btn-primary mt-3" href=""> <i class="bi bi-filetype-pdf"></i> Download Panduan PBL</a> -->
+      </div>
+    </div>
+
+    <div class="container" style="min-height: 40rem">
+      <main class="row justify-content-around align-items-center mt-5">
+        <!-- konten -->
+        <section class="col-lg-8">
+          <!-- isi judul dan paragraph/multimedia -->
+          <h3 class="display-5 mb-3">Judul</h3>
+
+          <p class="isi-konten">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iusto sequi harum a id dignissimos. Eaque, ipsum, distinctio voluptatem quibusdam
+            ullam nobis, aliquid id quidem consequuntur molestias odio delectus sed eveniet esse! Quidem vitae enim quaerat magni error adipisci ad, perferendis
+            earum iusto, repudiandae suscipit ipsum atque et natus eaque consectetur? Odio, molestiae assumenda doloribus laudantium consequuntur enim veritatis
+            modi ut libero nostrum facilis voluptates repellendus aliquam rem inventore at? Dolor doloribus adipisci impedit reiciendis ad veritatis qui eos
+            vitae doloremque magnam consequatur officia, quibusdam unde cumque, cum laborum. Nihil culpa earum quasi exercitationem labore facere, quia,
+            consequuntur ad consectetur aut dolorem, ipsum quos nobis explicabo dolor tempora facilis recusandae odio ea cumque quod quis eveniet consequatur.
+            Quos, iure voluptatem ullam sunt, accusamus esse reiciendis corporis eveniet unde illum in earum dolorem sequi! Laborum eligendi eaque in
+            praesentium, magnam dolor. Fuga accusamus omnis assumenda placeat, voluptatem blanditiis repellat sunt aut doloremque quos quam ipsum sequi minus
+            voluptatum eaque magnam numquam officia eveniet fugiat. Minima molestias minus facilis officiis nemo odit nam. Voluptates quis ab quia, accusamus
+            consequuntur cumque assumenda ullam minima sed ad accusantium! Unde tempore totam repellendus alias, fugiat harum ipsam necessitatibus provident
+            dolor? Eius cupiditate natus expedita veniam?
+          </p>
+        </section>
+
+        <aside class="col-lg-3">
+          <!-- item sidebar -->
+          <div class="row flex-column justify-content-center mb-2">
+            <div class="col mt-2 mb-lg-3">
+              <div class="card">
+                <div class="card-body bg-info text-white p-lg-3">
+                  <h5 class="card-title">Jumlah User</h5>
+                  <p class="display-3">21</p>
+                </div>
+              </div>
+            </div>
+            <div class="col col mt-2 mb-lg-3">
+              <div class="card">
+                <div class="card-body bg-success text-white p-lg-3">
+                  <h5 class="card-title">Jumlah Logbook</h5>
+                  <p class="display-3">102</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <footer class="bg-dark mt-lg-5 text-white p-4 text-center">2022 &copy Edited By Matt</footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
